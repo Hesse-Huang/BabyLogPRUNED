@@ -16,7 +16,8 @@ class LogMainVC: UIViewController
     @IBOutlet weak var addCryView: CryLogVC!
     
     @IBOutlet weak var save_Button: UIBarButtonItem!
-
+    @IBOutlet weak var segmentControl: UISegmentedControl!
+    
     var viewList: [UIViewController]!
     var record: Record!
     var currentView: UIViewController!
@@ -65,6 +66,8 @@ class LogMainVC: UIViewController
         
         currentView = visibleView //record the current visible view
     }
+    
+    
     
     /*
      // MARK: - Navigation
