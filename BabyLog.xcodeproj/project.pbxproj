@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EFDD17A6D375DC4142DA52 /* Pods_BabyLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35013FC1F93835850FEB6926 /* Pods_BabyLogUITests.framework */; };
+		2416BFF623CDD93B004EBB85 /* PoopLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416BFF523CDD93B004EBB85 /* PoopLogVC.swift */; };
+		2416BFF823CDD957004EBB85 /* SleepLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416BFF723CDD957004EBB85 /* SleepLogVC.swift */; };
+		2416BFFA23CDD973004EBB85 /* EditScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416BFF923CDD973004EBB85 /* EditScheduleVC.swift */; };
+		2416BFFD23CDDBCD004EBB85 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416BFFC23CDDBCD004EBB85 /* AddEventVC.swift */; };
+		241B8B0422EF01D5000BF172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241B8B0322EF01D5000BF172 /* AppDelegate.swift */; };
+		241B8B0B22EF01D5000BF172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241B8B0922EF01D5000BF172 /* Main.storyboard */; };
+		241B8B0D22EF01D7000BF172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241B8B0C22EF01D7000BF172 /* Assets.xcassets */; };
+		241B8B1022EF01D7000BF172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241B8B0E22EF01D7000BF172 /* LaunchScreen.storyboard */; };
+		241B8B1B22EF01D7000BF172 /* BabyLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241B8B1A22EF01D7000BF172 /* BabyLogTests.swift */; };
+		241B8B2622EF01D7000BF172 /* BabyLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241B8B2522EF01D7000BF172 /* BabyLogUITests.swift */; };
+		2425D01823580E8A0096BA96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2425D01723580E890096BA96 /* GoogleService-Info.plist */; };
+		243D2CE0232F27350094CCFD /* LogMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D2CDF232F27350094CCFD /* LogMainVC.swift */; };
+		243D2CE2232F297E0094CCFD /* FeedLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D2CE1232F297E0094CCFD /* FeedLogVC.swift */; };
+		248868D123125DFB00FBB725 /* segmentControlSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248868D023125DFB00FBB725 /* segmentControlSwitchView.swift */; };
+		24C820B8230A95DE00A49FD2 /* BabyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C820B7230A95DE00A49FD2 /* BabyTabViewController.swift */; };
+		24DA10FA23C6F3D000F927EC /* CryLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA10F923C6F3D000F927EC /* CryLog.swift */; };
+		24DA10FC23C6F3FA00F927EC /* SleepLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA10FB23C6F3FA00F927EC /* SleepLog.swift */; };
+		24DA10FE23C6F40A00F927EC /* PoopLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA10FD23C6F40900F927EC /* PoopLog.swift */; };
+		24DA110023C6F41900F927EC /* FeedLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA10FF23C6F41900F927EC /* FeedLog.swift */; };
+		24E59A6B23CC69DF00CBD35E /* CryLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E59A6A23CC69DF00CBD35E /* CryLogVC.swift */; };
+		24E59A6F23CC6F8F00CBD35E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E59A6E23CC6F8F00CBD35E /* Log.swift */; };
+		24E59A7123CC721800CBD35E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E59A7023CC721800CBD35E /* Record.swift */; };
+		24E59A7323CC72E300CBD35E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E59A7223CC72E300CBD35E /* Schedule.swift */; };
+		24E59A7523CC730500CBD35E /* LogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E59A7423CC730500CBD35E /* LogList.swift */; };
+		24E59A7723CC773800CBD35E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E59A7623CC773800CBD35E /* Event.swift */; };
+		62E217D2D09967345E8C639D /* Pods_BabyLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5960428197AC2D86784C4DCD /* Pods_BabyLogTests.framework */; };
+		E2C269077AF3924DE8EB4589 /* Pods_BabyLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7002C2B162347A6CC1764 /* Pods_BabyLog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241B8B1722EF01D7000BF172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241B8AF822EF01D5000BF172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241B8AFF22EF01D5000BF172;
+			remoteInfo = BabyLog;
+		};
+		241B8B2222EF01D7000BF172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241B8AF822EF01D5000BF172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241B8AFF22EF01D5000BF172;
+			remoteInfo = BabyLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E59ADCEEFD6FEF706C7590C /* Pods-BabyLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLog.release.xcconfig"; path = "Target Support Files/Pods-BabyLog/Pods-BabyLog.release.xcconfig"; sourceTree = "<group>"; };
+		2416BFF523CDD93B004EBB85 /* PoopLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopLogVC.swift; sourceTree = "<group>"; };
+		2416BFF723CDD957004EBB85 /* SleepLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLogVC.swift; sourceTree = "<group>"; };
+		2416BFF923CDD973004EBB85 /* EditScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScheduleVC.swift; sourceTree = "<group>"; };
+		2416BFFC23CDDBCD004EBB85 /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
+		241B8B0022EF01D5000BF172 /* BabyLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241B8B0322EF01D5000BF172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		241B8B0A22EF01D5000BF172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241B8B0C22EF01D7000BF172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241B8B0F22EF01D7000BF172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		241B8B1122EF01D7000BF172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241B8B1622EF01D7000BF172 /* BabyLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241B8B1A22EF01D7000BF172 /* BabyLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyLogTests.swift; sourceTree = "<group>"; };
+		241B8B1C22EF01D7000BF172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241B8B2122EF01D7000BF172 /* BabyLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241B8B2522EF01D7000BF172 /* BabyLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyLogUITests.swift; sourceTree = "<group>"; };
+		241B8B2722EF01D7000BF172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2425D01723580E890096BA96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		243D2CDF232F27350094CCFD /* LogMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMainVC.swift; sourceTree = "<group>"; };
+		243D2CE1232F297E0094CCFD /* FeedLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLogVC.swift; sourceTree = "<group>"; };
+		248868D023125DFB00FBB725 /* segmentControlSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentControlSwitchView.swift; sourceTree = "<group>"; };
+		24C820B7230A95DE00A49FD2 /* BabyTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyTabViewController.swift; sourceTree = "<group>"; };
+		24DA10F923C6F3D000F927EC /* CryLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryLog.swift; sourceTree = "<group>"; };
+		24DA10FB23C6F3FA00F927EC /* SleepLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLog.swift; sourceTree = "<group>"; };
+		24DA10FD23C6F40900F927EC /* PoopLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopLog.swift; sourceTree = "<group>"; };
+		24DA10FF23C6F41900F927EC /* FeedLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLog.swift; sourceTree = "<group>"; };
+		24E59A6A23CC69DF00CBD35E /* CryLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryLogVC.swift; sourceTree = "<group>"; };
+		24E59A6E23CC6F8F00CBD35E /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		24E59A7023CC721800CBD35E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		24E59A7223CC72E300CBD35E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		24E59A7423CC730500CBD35E /* LogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogList.swift; sourceTree = "<group>"; };
+		24E59A7623CC773800CBD35E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2D3388FD084C112B4798C11E /* Pods-BabyLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLogTests.debug.xcconfig"; path = "Target Support Files/Pods-BabyLogTests/Pods-BabyLogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35013FC1F93835850FEB6926 /* Pods_BabyLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5960428197AC2D86784C4DCD /* Pods_BabyLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF51051A3FF38C71E5458D /* Pods-BabyLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLogTests.release.xcconfig"; path = "Target Support Files/Pods-BabyLogTests/Pods-BabyLogTests.release.xcconfig"; sourceTree = "<group>"; };
+		A45B0B710E110A23842F88E8 /* Pods-BabyLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLogUITests.debug.xcconfig"; path = "Target Support Files/Pods-BabyLogUITests/Pods-BabyLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F7002C2B162347A6CC1764 /* Pods_BabyLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBFD84BABAAC152043D551B /* Pods-BabyLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLogUITests.release.xcconfig"; path = "Target Support Files/Pods-BabyLogUITests/Pods-BabyLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA8BA87F3AD972CA404CA001 /* Pods-BabyLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLog.debug.xcconfig"; path = "Target Support Files/Pods-BabyLog/Pods-BabyLog.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241B8AFD22EF01D5000BF172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C269077AF3924DE8EB4589 /* Pods_BabyLog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241B8B1322EF01D7000BF172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E217D2D09967345E8C639D /* Pods_BabyLogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241B8B1E22EF01D7000BF172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EFDD17A6D375DC4142DA52 /* Pods_BabyLogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2416BFFB23CDDBB6004EBB85 /* Schedule VCs */ = {
+			isa = PBXGroup;
+			children = (
+				2416BFF923CDD973004EBB85 /* EditScheduleVC.swift */,
+				2416BFFC23CDDBCD004EBB85 /* AddEventVC.swift */,
+			);
+			path = "Schedule VCs";
+			sourceTree = "<group>";
+		};
+		241B8AF722EF01D5000BF172 = {
+			isa = PBXGroup;
+			children = (
+				241B8B0222EF01D5000BF172 /* BabyLog */,
+				241B8B1922EF01D7000BF172 /* BabyLogTests */,
+				241B8B2422EF01D7000BF172 /* BabyLogUITests */,
+				241B8B0122EF01D5000BF172 /* Products */,
+				DE9612D961E66C72C8815D23 /* Pods */,
+				97294311C6B2EECED8A275C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		241B8B0122EF01D5000BF172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241B8B0022EF01D5000BF172 /* BabyLog.app */,
+				241B8B1622EF01D7000BF172 /* BabyLogTests.xctest */,
+				241B8B2122EF01D7000BF172 /* BabyLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241B8B0222EF01D5000BF172 /* BabyLog */ = {
+			isa = PBXGroup;
+			children = (
+				243D2CDC232F258F0094CCFD /* Cell Classes */,
+				243D2CDB232F257A0094CCFD /* Utility Classes */,
+				2425D0142357FB700096BA96 /* Model Classes */,
+				243D2CD6232F253D0094CCFD /* View Controllers */,
+				241B8B0322EF01D5000BF172 /* AppDelegate.swift */,
+				241B8B0922EF01D5000BF172 /* Main.storyboard */,
+				241B8B0C22EF01D7000BF172 /* Assets.xcassets */,
+				241B8B0E22EF01D7000BF172 /* LaunchScreen.storyboard */,
+				2425D01723580E890096BA96 /* GoogleService-Info.plist */,
+				241B8B1122EF01D7000BF172 /* Info.plist */,
+			);
+			path = BabyLog;
+			sourceTree = "<group>";
+		};
+		241B8B1922EF01D7000BF172 /* BabyLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				241B8B1A22EF01D7000BF172 /* BabyLogTests.swift */,
+				241B8B1C22EF01D7000BF172 /* Info.plist */,
+			);
+			path = BabyLogTests;
+			sourceTree = "<group>";
+		};
+		241B8B2422EF01D7000BF172 /* BabyLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				241B8B2522EF01D7000BF172 /* BabyLogUITests.swift */,
+				241B8B2722EF01D7000BF172 /* Info.plist */,
+			);
+			path = BabyLogUITests;
+			sourceTree = "<group>";
+		};
+		2425D0142357FB700096BA96 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DA10F923C6F3D000F927EC /* CryLog.swift */,
+				24E59A6E23CC6F8F00CBD35E /* Log.swift */,
+				24DA10FB23C6F3FA00F927EC /* SleepLog.swift */,
+				24DA10FD23C6F40900F927EC /* PoopLog.swift */,
+				24DA10FF23C6F41900F927EC /* FeedLog.swift */,
+				24E59A7023CC721800CBD35E /* Record.swift */,
+				24E59A7223CC72E300CBD35E /* Schedule.swift */,
+				24E59A7623CC773800CBD35E /* Event.swift */,
+				24E59A7423CC730500CBD35E /* LogList.swift */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		243D2CD6232F253D0094CCFD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2416BFFB23CDDBB6004EBB85 /* Schedule VCs */,
+				243D2CD9232F255F0094CCFD /* Add Log VCs */,
+				243D2CD8232F25530094CCFD /* Baby VCs */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		243D2CD8232F25530094CCFD /* Baby VCs */ = {
+			isa = PBXGroup;
+			children = (
+				24C820B7230A95DE00A49FD2 /* BabyTabViewController.swift */,
+			);
+			path = "Baby VCs";
+			sourceTree = "<group>";
+		};
+		243D2CD9232F255F0094CCFD /* Add Log VCs */ = {
+			isa = PBXGroup;
+			children = (
+				243D2CDF232F27350094CCFD /* LogMainVC.swift */,
+				243D2CE1232F297E0094CCFD /* FeedLogVC.swift */,
+				24E59A6A23CC69DF00CBD35E /* CryLogVC.swift */,
+				2416BFF523CDD93B004EBB85 /* PoopLogVC.swift */,
+				2416BFF723CDD957004EBB85 /* SleepLogVC.swift */,
+			);
+			path = "Add Log VCs";
+			sourceTree = "<group>";
+		};
+		243D2CDB232F257A0094CCFD /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				248868D023125DFB00FBB725 /* segmentControlSwitchView.swift */,
+			);
+			path = "Utility Classes";
+			sourceTree = "<group>";
+		};
+		243D2CDC232F258F0094CCFD /* Cell Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cell Classes";
+			sourceTree = "<group>";
+		};
+		97294311C6B2EECED8A275C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2F7002C2B162347A6CC1764 /* Pods_BabyLog.framework */,
+				5960428197AC2D86784C4DCD /* Pods_BabyLogTests.framework */,
+				35013FC1F93835850FEB6926 /* Pods_BabyLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9612D961E66C72C8815D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BA87F3AD972CA404CA001 /* Pods-BabyLog.debug.xcconfig */,
+				0E59ADCEEFD6FEF706C7590C /* Pods-BabyLog.release.xcconfig */,
+				2D3388FD084C112B4798C11E /* Pods-BabyLogTests.debug.xcconfig */,
+				84EF51051A3FF38C71E5458D /* Pods-BabyLogTests.release.xcconfig */,
+				A45B0B710E110A23842F88E8 /* Pods-BabyLogUITests.debug.xcconfig */,
+				EDBFD84BABAAC152043D551B /* Pods-BabyLogUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241B8AFF22EF01D5000BF172 /* BabyLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241B8B2A22EF01D7000BF172 /* Build configuration list for PBXNativeTarget "BabyLog" */;
+			buildPhases = (
+				0BC338099990FCB5596C03E8 /* [CP] Check Pods Manifest.lock */,
+				241B8AFC22EF01D5000BF172 /* Sources */,
+				241B8AFD22EF01D5000BF172 /* Frameworks */,
+				241B8AFE22EF01D5000BF172 /* Resources */,
+				8084347EE74828DE172049EB /* [CP] Embed Pods Frameworks */,
+				24E59A7823CC7E0B00CBD35E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyLog;
+			productName = BabyLog;
+			productReference = 241B8B0022EF01D5000BF172 /* BabyLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241B8B1522EF01D7000BF172 /* BabyLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241B8B2D22EF01D7000BF172 /* Build configuration list for PBXNativeTarget "BabyLogTests" */;
+			buildPhases = (
+				FFC1167DC2DE4D2E6937850C /* [CP] Check Pods Manifest.lock */,
+				241B8B1222EF01D7000BF172 /* Sources */,
+				241B8B1322EF01D7000BF172 /* Frameworks */,
+				241B8B1422EF01D7000BF172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241B8B1822EF01D7000BF172 /* PBXTargetDependency */,
+			);
+			name = BabyLogTests;
+			productName = BabyLogTests;
+			productReference = 241B8B1622EF01D7000BF172 /* BabyLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241B8B2022EF01D7000BF172 /* BabyLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241B8B3022EF01D7000BF172 /* Build configuration list for PBXNativeTarget "BabyLogUITests" */;
+			buildPhases = (
+				54FB48B6C832ABDDCFDA6218 /* [CP] Check Pods Manifest.lock */,
+				241B8B1D22EF01D7000BF172 /* Sources */,
+				241B8B1E22EF01D7000BF172 /* Frameworks */,
+				241B8B1F22EF01D7000BF172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241B8B2322EF01D7000BF172 /* PBXTargetDependency */,
+			);
+			name = BabyLogUITests;
+			productName = BabyLogUITests;
+			productReference = 241B8B2122EF01D7000BF172 /* BabyLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241B8AF822EF01D5000BF172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Whitney Deng";
+				TargetAttributes = {
+					241B8AFF22EF01D5000BF172 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					241B8B1522EF01D7000BF172 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 241B8AFF22EF01D5000BF172;
+					};
+					241B8B2022EF01D7000BF172 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 241B8AFF22EF01D5000BF172;
+					};
+				};
+			};
+			buildConfigurationList = 241B8AFB22EF01D5000BF172 /* Build configuration list for PBXProject "BabyLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 241B8AF722EF01D5000BF172;
+			productRefGroup = 241B8B0122EF01D5000BF172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241B8AFF22EF01D5000BF172 /* BabyLog */,
+				241B8B1522EF01D7000BF172 /* BabyLogTests */,
+				241B8B2022EF01D7000BF172 /* BabyLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241B8AFE22EF01D5000BF172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241B8B1022EF01D7000BF172 /* LaunchScreen.storyboard in Resources */,
+				2425D01823580E8A0096BA96 /* GoogleService-Info.plist in Resources */,
+				241B8B0D22EF01D7000BF172 /* Assets.xcassets in Resources */,
+				241B8B0B22EF01D5000BF172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241B8B1422EF01D7000BF172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241B8B1F22EF01D7000BF172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC338099990FCB5596C03E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24E59A7823CC7E0B00CBD35E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"\n";
+		};
+		54FB48B6C832ABDDCFDA6218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyLogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8084347EE74828DE172049EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyLog/Pods-BabyLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyLog/Pods-BabyLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BabyLog/Pods-BabyLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC1167DC2DE4D2E6937850C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyLogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241B8AFC22EF01D5000BF172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E59A6B23CC69DF00CBD35E /* CryLogVC.swift in Sources */,
+				243D2CE2232F297E0094CCFD /* FeedLogVC.swift in Sources */,
+				24E59A7123CC721800CBD35E /* Record.swift in Sources */,
+				2416BFF623CDD93B004EBB85 /* PoopLogVC.swift in Sources */,
+				2416BFF823CDD957004EBB85 /* SleepLogVC.swift in Sources */,
+				24E59A6F23CC6F8F00CBD35E /* Log.swift in Sources */,
+				24E59A7723CC773800CBD35E /* Event.swift in Sources */,
+				248868D123125DFB00FBB725 /* segmentControlSwitchView.swift in Sources */,
+				2416BFFD23CDDBCD004EBB85 /* AddEventVC.swift in Sources */,
+				24C820B8230A95DE00A49FD2 /* BabyTabViewController.swift in Sources */,
+				2416BFFA23CDD973004EBB85 /* EditScheduleVC.swift in Sources */,
+				24DA10FE23C6F40A00F927EC /* PoopLog.swift in Sources */,
+				24DA110023C6F41900F927EC /* FeedLog.swift in Sources */,
+				241B8B0422EF01D5000BF172 /* AppDelegate.swift in Sources */,
+				24DA10FC23C6F3FA00F927EC /* SleepLog.swift in Sources */,
+				24E59A7523CC730500CBD35E /* LogList.swift in Sources */,
+				243D2CE0232F27350094CCFD /* LogMainVC.swift in Sources */,
+				24E59A7323CC72E300CBD35E /* Schedule.swift in Sources */,
+				24DA10FA23C6F3D000F927EC /* CryLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241B8B1222EF01D7000BF172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241B8B1B22EF01D7000BF172 /* BabyLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241B8B1D22EF01D7000BF172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241B8B2622EF01D7000BF172 /* BabyLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241B8B1822EF01D7000BF172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241B8AFF22EF01D5000BF172 /* BabyLog */;
+			targetProxy = 241B8B1722EF01D7000BF172 /* PBXContainerItemProxy */;
+		};
+		241B8B2322EF01D7000BF172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241B8AFF22EF01D5000BF172 /* BabyLog */;
+			targetProxy = 241B8B2222EF01D7000BF172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241B8B0922EF01D5000BF172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241B8B0A22EF01D5000BF172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241B8B0E22EF01D7000BF172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241B8B0F22EF01D7000BF172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241B8B2822EF01D7000BF172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		241B8B2922EF01D7000BF172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241B8B2B22EF01D7000BF172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8BA87F3AD972CA404CA001 /* Pods-BabyLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H34N2R25T;
+				INFOPLIST_FILE = BabyLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cis.BabyLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		241B8B2C22EF01D7000BF172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E59ADCEEFD6FEF706C7590C /* Pods-BabyLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H34N2R25T;
+				INFOPLIST_FILE = BabyLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cis.BabyLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		241B8B2E22EF01D7000BF172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3388FD084C112B4798C11E /* Pods-BabyLogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H34N2R25T;
+				INFOPLIST_FILE = BabyLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cis.BabyLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyLog.app/BabyLog";
+			};
+			name = Debug;
+		};
+		241B8B2F22EF01D7000BF172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EF51051A3FF38C71E5458D /* Pods-BabyLogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H34N2R25T;
+				INFOPLIST_FILE = BabyLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cis.BabyLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyLog.app/BabyLog";
+			};
+			name = Release;
+		};
+		241B8B3122EF01D7000BF172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45B0B710E110A23842F88E8 /* Pods-BabyLogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H34N2R25T;
+				INFOPLIST_FILE = BabyLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cis.BabyLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyLog;
+			};
+			name = Debug;
+		};
+		241B8B3222EF01D7000BF172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBFD84BABAAC152043D551B /* Pods-BabyLogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H34N2R25T;
+				INFOPLIST_FILE = BabyLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cis.BabyLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241B8AFB22EF01D5000BF172 /* Build configuration list for PBXProject "BabyLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241B8B2822EF01D7000BF172 /* Debug */,
+				241B8B2922EF01D7000BF172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241B8B2A22EF01D7000BF172 /* Build configuration list for PBXNativeTarget "BabyLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241B8B2B22EF01D7000BF172 /* Debug */,
+				241B8B2C22EF01D7000BF172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241B8B2D22EF01D7000BF172 /* Build configuration list for PBXNativeTarget "BabyLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241B8B2E22EF01D7000BF172 /* Debug */,
+				241B8B2F22EF01D7000BF172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241B8B3022EF01D7000BF172 /* Build configuration list for PBXNativeTarget "BabyLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241B8B3122EF01D7000BF172 /* Debug */,
+				241B8B3222EF01D7000BF172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241B8AF822EF01D5000BF172 /* Project object */;
+}
