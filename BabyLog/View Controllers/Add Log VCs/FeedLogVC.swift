@@ -28,13 +28,13 @@ class FeedLogVC: UIViewController
         // Do any additional setup after loading the view.
     }
     
-//    @IBAction func valueChanged(_ sender: UIDatePicker)
-//    {
-//        feedLog.setTime(t: setTime_Datepicker.date)
-//        let formatter = DateFormatter()
-//        let dateString: String = formatter.string(from:setTime_Datepicker.date) //TODO: TESTING
-//        amount_TextField.text?.append(dateString) //TODO: TESTING
-//    }
+    @IBAction func valueChanged(_ sender: UIDatePicker)
+    {
+        feedLog.setTime(t: setTime_Datepicker.date)
+        let formatter = DateFormatter()
+        let dateString: String = formatter.string(from:setTime_Datepicker.date) //TODO: TESTING
+        amount_TextField.text?.append(dateString) //TODO: TESTING
+    }
     
    /*
     // MARK: - Navigation

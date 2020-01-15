@@ -64,7 +64,7 @@
                                                 <barButtonItem key="leftBarButtonItem" title="Sort" id="OwY-Wf-707"/>
                                                 <barButtonItem key="rightBarButtonItem" systemItem="add" id="D5G-rq-pOg">
                                                     <connections>
-                                                        <segue destination="fyC-fv-ZVN" kind="push" id="3Yj-CA-eLx"/>
+                                                        <segue destination="fyC-fv-ZVN" kind="show" id="Lz9-me-UGe"/>
                                                     </connections>
                                                 </barButtonItem>
                                             </navigationItem>
@@ -154,7 +154,8 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="addLog_Button" destination="D5G-rq-pOg" id="yNa-8Z-YBy"/>
+                        <outlet property="addEvent_Button" destination="BM7-nn-rrj" id="jFY-1F-qeG"/>
+                        <outlet property="addLog_Button" destination="BM7-nn-rrj" id="CUO-Sx-aUV"/>
                         <outlet property="editSchedule_Button" destination="WfM-Xx-lVa" id="eBL-MQ-GI6"/>
                         <outlet property="sortLogs_Button" destination="OwY-Wf-707" id="NvW-cK-63s"/>
                     </connections>
@@ -456,7 +457,7 @@
             <objects>
                 <viewController id="kPx-5F-45Y" userLabel="AddFeedLog" customClass="FeedLogVC" customModule="BabyLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8fR-XO-cOg">
-                        <rect key="frame" x="0.0" y="0.0" width="355" height="597"/>
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GCA-vc-7Hk" userLabel="feedVert_Stack View">
@@ -580,7 +581,7 @@
             <objects>
                 <viewController id="BM8-ra-zYx" userLabel="AddCryLog" customClass="CryLogVC" customModule="BabyLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a5h-UY-oZV" customClass="CryLogVC" customModule="BabyLog" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="355" height="597"/>
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xI6-oA-9pa" userLabel="cryVert_Stack View">
@@ -711,7 +712,7 @@
             <objects>
                 <viewController id="36m-4Q-qJk" userLabel="AddPoopLog" customClass="PoopLogVC" customModule="BabyLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PD8-gA-CUm" customClass="PoopLogVC" customModule="BabyLog" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="355" height="597"/>
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mtu-bI-QRA" userLabel="poopVert_Stack View">
@@ -836,7 +837,7 @@
             <objects>
                 <viewController id="h7F-2c-hnU" userLabel="AddSleepLog" customClass="SleepLogVC" customModule="BabyLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ayj-cc-n37" customClass="SleepLogVC" customModule="BabyLog">
-                        <rect key="frame" x="0.0" y="0.0" width="355" height="597"/>
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="deS-gm-9zT" userLabel="sleepVert_Stack View">
@@ -945,6 +946,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hiW-be-zzJ"/>
+        <segue reference="gLC-Qa-v07"/>
     </inferredMetricsTieBreakers>
 </document>

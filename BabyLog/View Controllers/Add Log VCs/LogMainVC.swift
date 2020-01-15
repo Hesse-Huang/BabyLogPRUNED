@@ -26,6 +26,7 @@ class LogMainVC: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+//        viewAppear(visibleView: addSleepView)
         viewList = [addFeedView, addSleepView, addPoopView, addCryView]
         // Do any additional setup after loading the view.
     }

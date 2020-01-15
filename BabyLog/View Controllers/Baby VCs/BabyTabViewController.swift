@@ -10,8 +10,9 @@ import UIKit
 
 class BabyTabViewController: UIViewController
 {
-    @IBOutlet weak var addLog_Button: UIBarButtonItem!
+    @IBOutlet weak var addEvent_Button: UIBarButtonItem!
     @IBOutlet weak var editSchedule_Button: UIBarButtonItem!
+    @IBOutlet weak var addLog_Button: UIBarButtonItem!
     @IBOutlet weak var sortLogs_Button: UIBarButtonItem!
     
     override func viewDidLoad()
